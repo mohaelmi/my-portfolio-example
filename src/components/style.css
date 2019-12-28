@@ -1,0 +1,119 @@
+body {
+    background: #eed59a;
+}
+
+.card {
+    width: 25rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card-body {
+    padding: 2rem !important;
+}
+
+.card:hover {
+    box-shadow: 10px 15px 20px 1px rgba(0, 0, 0, 0.6) ;
+}
+
+.container-flud {
+    margin-top: 5rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    /* margin-left: 15rem; */
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.card-img-top {
+    transform: scale(1);
+    transition: transform 0.9s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(2);
+}
+
+
+@media only screen and (max-width: 800px) {
+    .container-flud {
+        margin-top: 5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        /* margin-left: 15rem; */
+    }
+    .card {
+        width: 20rem;
+        margin-top: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .container-flud {
+        margin-top: 5rem;
+        margin-left: 10rem;
+        margin-right: 10rem;
+        /* margin-left: 15rem; */
+    }
+    .card {
+        width: 20rem;
+        margin-top: 20px;
+    }
+}
+
+
+@media only screen and (min-width: 1025px) {
+    .container-flud {
+        margin-top: 5rem;
+        margin-left: 18rem;
+        margin-right: 18rem;
+        /* margin-left: 15rem; */
+    }
+    
+   
+    .card {
+        width: 20rem;
+        margin-top: 50px;
+    }
+    
+}
+
+@media only screen and (max-width: 400px) {
+    .navbar {
+        width: 100%;
+    }
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 10px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 100%;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+  }
+  
+  
+  .fa-facebook {
+    background:#3B5998;
+    color: white;
+  }
+  .fa-linkedin {
+    color:#3B5998;
+    background-color: #FFFFFF
+  }
+
+  .footer-copyright a {
+      color: white;
+      font-size: 20px;
+  }
+
