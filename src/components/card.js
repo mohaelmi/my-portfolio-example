@@ -19,7 +19,7 @@ class Card extends Component {
                 <div className="card-body">
                 <h5   className="card-title"> {this.props.title}</h5>
                 <p className="card-text">{ this.props.body }</p>
-                <button  className="btn" onClick={ this.props.morepictures } >More Pictures</button>
+                <button  className="btn" onClick={ this.props.readmore } >Read More...</button>
                 <a  href={this.props.github} target="_blank" className="btn btn-primary"  >Github</a>
                 </div>
             </div>

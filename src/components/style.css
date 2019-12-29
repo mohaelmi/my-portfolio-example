@@ -1,6 +1,6 @@
-body {
+/* body {
     background: #eed59a;
-}
+} */
 
 .card {
     width: 25rem;
@@ -62,6 +62,9 @@ body {
         width: 20rem;
         margin-top: 20px;
     }
+
+    
+  
 }
 
 
@@ -79,28 +82,34 @@ body {
         margin-top: 50px;
     }
     
+    
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
     .navbar {
         width: 100%;
     }
+    .myImage  {
+        margin-right: 90px;
+    } 
+    
 }
 
 
 .fa {
-    padding: 20px;
+    /* padding: 20px;
     font-size: 10px;
     width: 50px;
     text-align: center;
     text-decoration: none;
     margin: 10px;
-    border-radius: 100%;
+    border-radius: 100%; */
+    margin-right: 0px;
   }
 
 .fa:hover {
     opacity: 0.7;
-  }
+  } 
   
   
   .fa-facebook {
@@ -115,5 +124,39 @@ body {
   .footer-copyright a {
       color: white;
       font-size: 20px;
+      
   }
+
+  
+  .myImage {
+    padding-top: 20px;
+ }
+  .myImage img {
+      width: 150px;
+      /* margin-left: 40%; */
+  }
+
+  html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+/* Other Classes for Page Styling */
+
+body {
+  background: silver;
+  background: linear-gradient(to right, blue, white);
+}
+
+.but {
+    color: white;
+}
 
