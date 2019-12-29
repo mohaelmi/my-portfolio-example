@@ -46,6 +46,7 @@ class App extends Component {
   </div>
   <div className="page-content" >
   <Navbarr />
+  <Footer />
   </div>
   </div>
   );

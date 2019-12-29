@@ -96,15 +96,15 @@
 }
 
 
-.fa {
-    /* padding: 20px;
+.footer .fa {
+    padding: 20px;
     font-size: 10px;
     width: 50px;
     text-align: center;
     text-decoration: none;
     margin: 10px;
-    border-radius: 100%; */
-    margin-right: 0px;
+    border-radius: 100%;
+    /* margin-right: 0px; */
   }
 
 .fa:hover {
