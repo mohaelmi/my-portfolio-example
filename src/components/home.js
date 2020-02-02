@@ -23,7 +23,7 @@ class Home extends Component {
                 <div className="myImage"> <img src={ myImage } className="rounded-circle" alt="my image"></img></div>
                 <div class="row justify-content-center">
                     <div class="col-md-7">
-                    <h1 class="font-weight-light mt-4 text-white">welcome to my Portfolio</h1>
+                    <h1 class="font-weight-light mt-4 text-white heading-primary">welcome to my Portfolio</h1>
                     <p class="lead text-white-50">Use just two Bootstrap 4 utility classes and three <br></br> custom CSS rules and you will have a flexbox enabled sticky footer for your website!</p>
                     <p class="lead text-white-50">Use jles and you will have a flexbox enabledsffd sticky footer for your website!</p>
                     <p class="lead text-white-50">Use just two Bootstrapasdsutility classes and three custom CSS rules and you will have a flexbox enabled sticky footer for your website!</p>
